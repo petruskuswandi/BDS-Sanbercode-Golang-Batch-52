@@ -8,4 +8,5 @@ func sayHelloTo(firstName string, lastName string) {
 
 func main() {
 	sayHelloTo("Petrus", "Kuswandi")
+	sayHelloTo("Budi", "Nugraha")
 }
