@@ -24,4 +24,11 @@ func main() {
 	for index, value := range names {
 		fmt.Println("index", index, "=", value)
 	}
+
+	for j := 1; j <= 5; j++ {
+		fmt.Println()
+		for k := 1; k <= 5; k++ {
+			fmt.Print(k)
+		}
+	}
 }
