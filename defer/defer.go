@@ -7,10 +7,8 @@ func logging() {
 }
 
 func runApplication() {
+	defer logging()
 	fmt.Println("Run application")
-
-	// error
-	logging()
 }
 
 func main() {
